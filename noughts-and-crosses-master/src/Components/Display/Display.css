@@ -1,0 +1,27 @@
+.Display{
+    padding: 20px;
+    font-size: 1.5em;
+    color: white;
+    user-select: none;
+}
+
+.player1 {
+    padding: 20px;
+    background-color: #0099ff;
+    margin-bottom: 20px;
+}
+
+.player1 span:nth-child(2) {
+    display: block;
+    text-align: right;
+}
+
+.player2 {
+    padding: 20px;
+    background-color: #fa5050;
+}
+
+.player2 span:nth-child(2) {
+    display: block;
+    text-align: right;
+}

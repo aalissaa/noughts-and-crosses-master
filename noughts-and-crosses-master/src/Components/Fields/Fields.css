@@ -1,0 +1,30 @@
+.Fields {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Fields > .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 100px;
+}
+
+/* .Field{
+    pointer-events: none;
+    opacity: 0.7;
+} */
+
+.Fields[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.Field:nth-child(1),
+.Field:nth-child(2) {
+  border-right: 2px solid #444;
+}
+
+.Fields > .row:nth-child(1),
+.Fields > .row:nth-child(2) {
+  border-bottom: 2px solid #444;
+}

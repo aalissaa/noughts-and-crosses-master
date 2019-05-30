@@ -1,0 +1,22 @@
+.Field {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 4em;
+    user-select: none;
+}
+
+.Field:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.Field:hover > div {
+    animation: fadein 0.25s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
